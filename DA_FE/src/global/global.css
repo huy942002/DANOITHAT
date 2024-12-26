@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+/* tailwindcss */
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+@import '~antd/dist/reset.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Custom antd */
+.ant-btn-primary {
+    background-color: #00b96b;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a4b0be;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #57606f;
+}
+
+::selection {
+    background: #00b96b;
+    color: white;
+}
+
+::-moz-selection {
+    background: #00b96b;
+    color: white;
+}
+
+::-webkit-selection {
+    background: #00b96b;
+    color: white;
+}
+
+/* ul.pagination li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+
+}
+
+ul.pagination li:hover {
+    background: #a4b0be;
+}
+
+ul.pagination {
+    float: right;
+    border-width: 2px;
+    border-style: solid;
+} */
